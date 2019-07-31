@@ -1,0 +1,90 @@
+body {
+ font-family: 'Crimson Pro', serif;
+ text-align: center;
+ background-color: #f4f7fc;
+}
+
+h1 {
+  color:#454d66;
+  font-size: 30px;
+}
+
+h2 {
+  color: #58b368;
+  font-size: 25px;
+}
+
+p {
+  color: #454d66;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: #d9d872;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #454d66;
+}
+
+.image-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+.icon i {
+  font-size: 40px;
+  color: white;
+  background-color: #D0D4DB;
+  border-radius: 3px;
+ }
+
+ @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
